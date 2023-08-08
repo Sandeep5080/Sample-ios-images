@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         self.btnPressed.layer.borderWidth = 1
         self.btnPressed.layer.cornerRadius = 26
         self.btnPressed.backgroundColor = .clear
+        self.btnPressed.backgroundColor = .blue
         
     }
     
