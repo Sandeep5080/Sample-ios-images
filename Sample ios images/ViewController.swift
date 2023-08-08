@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//changes
 class ViewController: UIViewController {
     
     let color: [UIColor] = [
@@ -20,10 +20,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ImageView.layer.borderWidth = 1
-        ImageView.layer.cornerRadius = 25
+        ImageView.layer.cornerRadius = 26
         
         self.btnPressed.layer.borderWidth = 1
-        self.btnPressed.layer.cornerRadius = 25
+        self.btnPressed.layer.cornerRadius = 26
         self.btnPressed.backgroundColor = .clear
         
     }
