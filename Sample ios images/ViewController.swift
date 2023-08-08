@@ -9,7 +9,7 @@ import UIKit
 //changes
 class ViewController: UIViewController {
     
-    let color: [UIColor] = [
+    let colorr: [UIColor] = [
         .systemCyan,
         .systemGray
     ]
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btntapped(_ sender: Any) {
-        self.view.backgroundColor = color.randomElement()
+        self.view.backgroundColor = colorr.randomElement()
       
             
             let urlString = "https://source.unsplash.com/random/300200"
